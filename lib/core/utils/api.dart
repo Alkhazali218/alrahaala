@@ -13,16 +13,13 @@ class Api {
     if (token != null) {
       headers.addAll({'Authorization': 'bearer $token'});
     }
-    // ignore: avoid_print
-    print('url = $url body = $body token = $token');
+
     http.Response response = await http.post(
       Uri.parse(url),
       body: body,
       headers: headers,
     );
     if (response.statusCode == 200) {
-      // ignore: avoid_print
-      print(jsonDecode(response.body));
       return jsonDecode(response.body);
     } else {
       throw Exception(
@@ -35,8 +32,6 @@ class Api {
     // ignore: non_constant_identifier_names
     http.Response Response = await http.get(Uri.parse(url));
     if (Response.statusCode == 200) {
-      print(jsonDecode(Response.body));
-
       return jsonDecode(Response.body);
     } else {
       throw Exception(

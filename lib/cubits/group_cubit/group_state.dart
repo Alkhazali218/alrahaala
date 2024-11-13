@@ -14,6 +14,7 @@ class GroupScuess extends GroupState {
 
 class GroupError extends GroupState {}
 
+// ignore: camel_case_types
 class groupSearch extends GroupState {
   final List<GroupModel> filteredData;
 
