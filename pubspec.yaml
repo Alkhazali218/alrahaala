@@ -44,17 +44,6 @@ dependencies:
   
 
 dev_dependencies:
-  flutter_lints: ^4.0.0
-  icons_launcher: ^3.0.0
-
-icons_launcher:
-  image_path: "assets/images/alrahaala.png"
-  platforms:
-    android:
-      enable: true
-    ios:
-      enable: true
-
   flutter_test:
     sdk: flutter
    
@@ -64,7 +53,6 @@ icons_launcher:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
