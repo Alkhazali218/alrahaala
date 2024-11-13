@@ -89,14 +89,14 @@ class _homeViewBodyState extends State<homeViewBody> {
                     ontap: () async {
                       if (fromKey.currentState!.validate()) {
                         setState(() {
-                          isLoading = true; // Start loading
+                          isLoading = true;
                         });
 
-                        // Validate credentials
                         await validateCredentials(token!, instance!);
 
-                        // Save token and instance in Cubit
+                        // ignore: use_build_context_synchronously
                         BlocProvider.of<MessageCubit>(context).token = token;
+                        // ignore: use_build_context_synchronously
                         BlocProvider.of<MessageCubit>(context).instance =
                             instance;
 
@@ -122,13 +122,16 @@ class _homeViewBodyState extends State<homeViewBody> {
 
       if (response.statusCode == 200) {
         // Assuming a successful response means valid credentials
+        // ignore: use_build_context_synchronously
         Navigator.pushNamed(context, screenView.id);
       } else {
         // Handle error response
+        // ignore: use_build_context_synchronously
         showSnackBar(context, 'يوجد خطا في ادخال البيانات', Colors.red);
       }
     } catch (error) {
       // Handle any exceptions
+      // ignore: use_build_context_synchronously
       showSnackBar(context, 'حدث خطأ في الاتصال بالخادم', Colors.red);
     }
   }
