@@ -31,7 +31,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.6
-  flutter_launcher_icons: ^0.14.1
   font_awesome_flutter: ^10.7.0
   google_fonts: 6.1.0
   http: ^1.2.0
@@ -80,10 +79,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-    - family: Pacifico
-      fonts:
-        - asset: assets/fonts/Pacifico-Regular.ttf
+  # fonts:
+  #   - family: Pacifico
+  #     fonts:
+  #       - asset: assets/fonts/Pacifico-Regular.ttf
       
   #
   # For details regarding fonts from package dependencies,
