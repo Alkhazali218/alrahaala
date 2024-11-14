@@ -36,6 +36,7 @@ dependencies:
   http: ^1.2.0
   image_picker: ^1.0.8
   modal_progress_hud_nsn: ^0.5.1
+  flutter_launcher_icons: ^0.13.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -48,10 +49,11 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/alrahaala.png"
-  adaptive_icon_background: "assets/images/alrahaala.png"
-  adaptive_icon_foreground: "assets/images/alrahaala.png"
+  remove_alpha_ios: true
+  image_path: "assets/images/playstore.png"
   min_sdk_android: 21
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/playstore.png"
    
 
   # The "flutter_lints" package below contains a set of recommended lints to
