@@ -49,8 +49,8 @@ class customCardItem extends StatelessWidget {
               ),
             ),
             Positioned(
-              right: 20,
-              top: -73,
+              right: 10,
+              top: -65,
               child: Image.asset(assets.klogo, height: 140),
             ),
           ],

@@ -66,7 +66,7 @@ class _groupViewBodyState extends State<groupViewBody> {
                       gridDelegate:
                           const SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
-                        childAspectRatio: 1.4,
+                        childAspectRatio: 1.12,
                         crossAxisSpacing: 30,
                         mainAxisSpacing: 65,
                       ),
