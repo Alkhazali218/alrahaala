@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
+import 'package:alrahala/cubits/messages_cubit/messages_state.dart';
+import 'package:alrahala/features/users/data/services/file_messages.dart';
+import 'package:alrahala/features/users/data/services/image_messages.dart';
+import 'package:alrahala/features/users/data/services/send_messages.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:scholar_chat/cubits/messages_cubit/messages_state.dart';
-import 'package:scholar_chat/features/users/data/services/file_messages.dart';
-import 'package:scholar_chat/features/users/data/services/image_messages.dart';
-import 'package:scholar_chat/features/users/data/services/send_messages.dart';
 import 'package:http/http.dart' as http;
 
 class MessageCubit extends Cubit<MessageState> {

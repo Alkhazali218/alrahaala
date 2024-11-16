@@ -1,6 +1,6 @@
+import 'package:alrahala/const.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:scholar_chat/const.dart';
 
 // ignore: camel_case_types, must_be_immutable
 class customButton extends StatelessWidget {

@@ -1,15 +1,15 @@
+import 'package:alrahala/const.dart';
+import 'package:alrahala/core/utils/assets.dart';
+import 'package:alrahala/core/utils/helper/show_snack_bar.dart';
+import 'package:alrahala/cubits/messages_cubit/messages_cubit.dart';
+import 'package:alrahala/cubits/messages_cubit/messages_state.dart';
+import 'package:alrahala/features/Screen/Presentation/screen_view/screen/screen_view.dart';
+import 'package:alrahala/features/home/presentation/view/widgets/custom_button.dart';
+import 'package:alrahala/features/home/presentation/view/widgets/custom_text_filed.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
-import 'package:scholar_chat/const.dart';
-import 'package:scholar_chat/core/utils/assets.dart';
-import 'package:scholar_chat/core/utils/helper/show_snack_bar.dart';
-import 'package:scholar_chat/cubits/messages_cubit/messages_cubit.dart';
-import 'package:scholar_chat/cubits/messages_cubit/messages_state.dart';
-import 'package:scholar_chat/features/Screen/Presentation/screen_view/screen/screen_view.dart';
-import 'package:scholar_chat/features/home/presentation/view/widgets/custom_button.dart';
-import 'package:scholar_chat/features/home/presentation/view/widgets/custom_text_filed.dart';
 import 'package:http/http.dart' as http;
 
 // ignore: camel_case_types

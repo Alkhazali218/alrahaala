@@ -1,8 +1,8 @@
 // ignore: file_names
+import 'package:alrahala/const.dart';
+import 'package:alrahala/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:scholar_chat/const.dart';
-import 'package:scholar_chat/core/utils/assets.dart';
 
 // ignore: camel_case_types, must_be_immutable
 class appBarItem extends StatelessWidget implements PreferredSizeWidget {

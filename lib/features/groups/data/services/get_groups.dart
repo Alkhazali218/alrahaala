@@ -1,7 +1,7 @@
-import 'package:scholar_chat/core/utils/api.dart';
-import 'package:scholar_chat/models/group_model.dart';
-
 // ignore: camel_case_types
+import 'package:alrahala/core/utils/api.dart';
+import 'package:alrahala/models/group_model.dart';
+
 class getGroupServices {
   Future<List<GroupModel>> getGroup(
       {required String instance, required String token}) async {

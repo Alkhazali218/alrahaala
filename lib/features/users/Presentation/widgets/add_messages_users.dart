@@ -1,6 +1,6 @@
+import 'package:alrahala/const.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:scholar_chat/const.dart';
 
 // ignore: must_be_immutable, camel_case_types
 class addMessagesUsers extends StatefulWidget {

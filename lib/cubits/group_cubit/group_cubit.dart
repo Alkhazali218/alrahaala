@@ -1,8 +1,8 @@
 // ignore: depend_on_referenced_packages
+import 'package:alrahala/cubits/group_cubit/group_state.dart';
+import 'package:alrahala/features/groups/data/services/get_groups.dart';
+import 'package:alrahala/models/group_model.dart';
 import 'package:bloc/bloc.dart';
-import 'package:scholar_chat/cubits/group_cubit/group_state.dart';
-import 'package:scholar_chat/features/groups/data/services/get_groups.dart';
-import 'package:scholar_chat/models/group_model.dart';
 
 // ignore: camel_case_types
 class groupCubit extends Cubit<GroupState> {

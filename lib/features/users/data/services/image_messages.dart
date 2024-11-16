@@ -1,6 +1,6 @@
+import 'package:alrahala/core/utils/api.dart';
+import 'package:alrahala/models/messages_model.dart';
 import 'package:flutter/material.dart';
-import 'package:scholar_chat/core/utils/api.dart';
-import 'package:scholar_chat/models/messages_model.dart';
 
 // ignore: camel_case_types
 class sendImagesWhatsappServices {

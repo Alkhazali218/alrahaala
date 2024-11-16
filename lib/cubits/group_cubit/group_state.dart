@@ -1,4 +1,4 @@
-import 'package:scholar_chat/models/group_model.dart';
+import 'package:alrahala/models/group_model.dart';
 
 abstract class GroupState {}
 

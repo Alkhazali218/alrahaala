@@ -1,5 +1,5 @@
+import 'package:alrahala/features/home/presentation/view/widgets/home_view_body.dart';
 import 'package:flutter/material.dart';
-import 'package:scholar_chat/features/home/presentation/view/widgets/home_view_body.dart';
 
 // ignore: camel_case_types
 class homeView extends StatelessWidget {

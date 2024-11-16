@@ -1,12 +1,12 @@
+import 'package:alrahala/const.dart';
+import 'package:alrahala/core/utils/assets.dart';
+import 'package:alrahala/cubits/group_cubit/group_cubit.dart';
+import 'package:alrahala/cubits/group_cubit/group_state.dart';
+import 'package:alrahala/features/groups/Presentation/widgets/custom_card_item.dart';
+import 'package:alrahala/features/home/presentation/view/widgets/custom_text_filed.dart';
+import 'package:alrahala/models/group_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:scholar_chat/const.dart';
-import 'package:scholar_chat/core/utils/assets.dart';
-import 'package:scholar_chat/cubits/group_cubit/group_cubit.dart';
-import 'package:scholar_chat/cubits/group_cubit/group_state.dart';
-import 'package:scholar_chat/features/groups/Presentation/widgets/custom_card_item.dart';
-import 'package:scholar_chat/features/home/presentation/view/widgets/custom_text_filed.dart';
-import 'package:scholar_chat/models/group_model.dart';
 
 // ignore: camel_case_types
 class groupViewBody extends StatefulWidget {

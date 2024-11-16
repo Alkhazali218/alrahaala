@@ -1,12 +1,12 @@
+import 'package:alrahala/cubits/group_cubit/group_cubit.dart';
+import 'package:alrahala/cubits/messages_cubit/messages_cubit.dart';
+import 'package:alrahala/features/Screen/Presentation/screen_view/screen/screen_view.dart';
+import 'package:alrahala/features/groups/Presentation/group_view/group_view.dart';
+import 'package:alrahala/features/groups/Presentation/widgets/add_messages_group.dart';
+import 'package:alrahala/features/home/presentation/view/view_home/home_view.dart';
+import 'package:alrahala/features/users/Presentation/users_view/users_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:scholar_chat/cubits/group_cubit/group_cubit.dart';
-import 'package:scholar_chat/cubits/messages_cubit/messages_cubit.dart';
-import 'package:scholar_chat/features/Screen/Presentation/screen_view/screen/screen_view.dart';
-import 'package:scholar_chat/features/groups/Presentation/group_view/group_view.dart';
-import 'package:scholar_chat/features/groups/Presentation/widgets/add_messages_group.dart';
-import 'package:scholar_chat/features/home/presentation/view/view_home/home_view.dart';
-import 'package:scholar_chat/features/users/Presentation/users_view/users_view.dart';
 
 void main() {
   runApp(const myApp());

@@ -1,8 +1,8 @@
+import 'package:alrahala/core/utils/assets.dart';
+import 'package:alrahala/features/groups/Presentation/widgets/add_messages_group.dart';
+import 'package:alrahala/models/group_model.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:scholar_chat/core/utils/assets.dart';
-import 'package:scholar_chat/features/groups/Presentation/widgets/add_messages_group.dart';
-import 'package:scholar_chat/models/group_model.dart';
 
 // ignore: must_be_immutable, camel_case_types
 class customCardItem extends StatelessWidget {

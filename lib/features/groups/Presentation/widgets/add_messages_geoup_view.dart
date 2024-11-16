@@ -1,10 +1,10 @@
+import 'package:alrahala/core/utils/helper/show_snack_bar.dart';
+import 'package:alrahala/cubits/messages_cubit/messages_cubit.dart';
+import 'package:alrahala/cubits/messages_cubit/messages_state.dart';
+import 'package:alrahala/features/users/Presentation/widgets/add_messages_users.dart';
+import 'package:alrahala/models/group_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:scholar_chat/core/utils/helper/show_snack_bar.dart';
-import 'package:scholar_chat/cubits/messages_cubit/messages_cubit.dart';
-import 'package:scholar_chat/cubits/messages_cubit/messages_state.dart';
-import 'package:scholar_chat/features/users/Presentation/widgets/add_messages_users.dart';
-import 'package:scholar_chat/models/group_model.dart';
 
 // ignore: must_be_immutable, camel_case_types
 class addMessagesGeoupBody extends StatefulWidget {

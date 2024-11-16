@@ -1,6 +1,6 @@
+import 'package:alrahala/features/Screen/Presentation/screen_view/screen/widgets/appBar_item.dart';
+import 'package:alrahala/features/Screen/Presentation/screen_view/screen/widgets/screen_view_body.dart';
 import 'package:flutter/material.dart';
-import 'package:scholar_chat/features/Screen/Presentation/screen_view/screen/widgets/appBar_item.dart';
-import 'package:scholar_chat/features/Screen/Presentation/screen_view/screen/widgets/screen_view_body.dart';
 
 // ignore: camel_case_types
 class screenView extends StatelessWidget {

@@ -1,9 +1,9 @@
+import 'package:alrahala/const.dart';
+import 'package:alrahala/features/Screen/Presentation/screen_view/screen/widgets/stack_item.dart';
+import 'package:alrahala/features/groups/Presentation/group_view/group_view.dart';
+import 'package:alrahala/features/users/Presentation/users_view/users_view.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:scholar_chat/const.dart';
-import 'package:scholar_chat/features/Screen/Presentation/screen_view/screen/widgets/stack_item.dart';
-import 'package:scholar_chat/features/groups/Presentation/group_view/group_view.dart';
-import 'package:scholar_chat/features/users/Presentation/users_view/users_view.dart';
 
 // ignore: camel_case_types
 class screenViewBody extends StatelessWidget {
