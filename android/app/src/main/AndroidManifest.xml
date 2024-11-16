@@ -2,7 +2,7 @@
     <application
         android:label="alrahala"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/alrahala">
         <activity
             android:name=".MainActivity"
             android:exported="true"
