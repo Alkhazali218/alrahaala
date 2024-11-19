@@ -51,7 +51,7 @@ class stackItem extends StatelessWidget {
                 Text(
                   textIcon,
                   style: GoogleFonts.amiri(
-                    fontSize: 20,
+                    fontSize: 18,
                     color: kprimaryColor,
                     fontWeight: FontWeight.bold,
                   ),

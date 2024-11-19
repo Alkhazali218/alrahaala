@@ -8,7 +8,6 @@ import 'package:alrahala/features/users/data/services/send_messages.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:http/http.dart' as http;
 
 class MessageCubit extends Cubit<MessageState> {
   MessageCubit() : super(MessageInitial());
@@ -19,28 +18,6 @@ class MessageCubit extends Cubit<MessageState> {
   String? base64File;
   String? token;
   String? instance;
-  Future<void> validateCredentials(
-      String userToken, String userInstance) async {
-    token = userToken; // Set the token
-    instance = userInstance; // Set the instance
-    final url = 'https://api.ultramsg.com/$instance/'; // Your API endpoint
-
-    try {
-      emit(MessageLoading()); // Emit loading state if needed
-
-      final response = await http.get(Uri.parse(url));
-
-      if (response.statusCode == 200) {
-        // Assuming a successful response means valid credentials
-        emit(MessageSent()); // Emit authenticated state
-        // Navigate to the next screen (you may need to handle this in your UI)
-      } else {
-        emit(MessageError('يوجد خطا في ادخال البيانات')); // Emit error state
-      }
-    } catch (error) {
-      emit(MessageError('حدث خطأ في الاتصال بالخادم')); // Emit error state
-    }
-  }
 
   Future<void> pickFile64() async {
     FilePickerResult? result = await FilePicker.platform.pickFiles();
